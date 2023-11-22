@@ -4,14 +4,14 @@ class Drob
 	int chislitel;
 	int znamenatel;
 public:
-	void initialize(int,int);
-	
-
-	void set_chis(int);
-	void set_znam(int);
-
+	void initialize();
+	void showdrob();
 	int get_chis();
 	int get_znam();
-
-	Drob plus(Drob,Drob);
+	void set_chis(int);
+	void set_znam(int);
+	Drob plus(Drob, Drob);
+	Drob minus(Drob, Drob);
+	Drob umnojeniye(Drob, Drob);
+	Drob delenie(Drob, Drob);
 };
