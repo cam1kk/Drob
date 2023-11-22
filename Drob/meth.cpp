@@ -22,9 +22,17 @@ void Drob::set_znam(int znamenatell) {
 	znamenatel = znamenatell;
 }
 Drob plus(Drob drob1, Drob drob2) {
-	int resultChislitel;
-	int resiltZnamenatel;
+	int resultChislitel{};
+	int resiltZnamenatel{};
 
+	int ch1 = drob1.get_chis();
+	int zn1 = drob1.get_znam();
+
+	int ch2 = drob2.get_chis();
+	int zn2 = drob2.get_znam();
+
+	resultChislitel = (ch1 * zn2) + (ch2 * zn1);
+	resiltZnamenatel = zn1 * zn2;
 
 
 	Drob newdrob;
