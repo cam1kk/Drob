@@ -2,7 +2,6 @@
 #include "meth.h"
 using namespace std;
 
-
 int main() {
 	Drob drob1;
 	drob1.initialize();
@@ -37,27 +36,33 @@ int main() {
 	drob2.showdrob();
 
 	cout << "\n\n\n";
+
+	// +
 	Drob res1;
 	res1.initialize();
-	res1.plus(drob1, drob2);
+	res1 = res1.plus(drob1, drob2);
 	cout << "Plus result: " << endl;
 	res1.showdrob();
 
+	// -
 	Drob res2;
 	res2.initialize();
-	res2.minus(drob1, drob2);
+	res2 = res2.minus(drob1, drob2);
 	cout << "Minus result: " << endl;
 	res2.showdrob();
 
+	// *
 	Drob res3;
 	res3.initialize();
-	res3.umnojeniye(drob1, drob2);
+	res3 = res3.umnojeniye(drob1, drob2);
 	cout << "Umnojeniye result: " << endl;
 	res3.showdrob();
 
+	// /
 	Drob res4;
 	res4.initialize();
-	res4.delenie(drob1, drob2);
+	res4 = res4.delenie(drob1, drob2);
 	cout << "Deleniye result: " << endl;
 	res4.showdrob();
+
 }

@@ -46,6 +46,7 @@ Drob Drob::plus(Drob drob1, Drob drob2) {
 
 
 	Drob newdrob;
+	newdrob.initialize();
 	newdrob.set_chis(resultChislitel);
 	newdrob.set_znam(resiltZnamenatel);
 	return newdrob;
@@ -65,6 +66,7 @@ Drob Drob::minus(Drob drob1, Drob drob2) {
 
 
 	Drob newdrob;
+	newdrob.initialize();
 	newdrob.set_chis(resultChislitel);
 	newdrob.set_znam(resiltZnamenatel);
 	return newdrob;
@@ -84,6 +86,7 @@ Drob Drob::umnojeniye(Drob drob1, Drob drob2) {
 
 
 	Drob newdrob;
+	newdrob.initialize();
 	newdrob.set_chis(resultChislitel);
 	newdrob.set_znam(resiltZnamenatel);
 	return newdrob;
@@ -103,6 +106,7 @@ Drob Drob::delenie(Drob drob1, Drob drob2) {
 
 
 	Drob newdrob;
+	newdrob.initialize();
 	newdrob.set_chis(resultChislitel);
 	newdrob.set_znam(resiltZnamenatel);
 	return newdrob;
